@@ -1,0 +1,109 @@
+@media(min-width:671px) and (max-width:1024px){
+    .photo_name_mchmdhilmie{
+        width:70%;
+        margin: 0 auto;
+        align-items: center;
+        float: none;
+    }
+    .photo_name_mchmdhilmie img{
+        width: 250px;
+        height: 250px;
+        float: none;
+        display: flex;
+        margin: 20px auto;
+    }
+    .photo_name_mchmdhilmie h1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .flex_box_mchmdhilmie{
+        flex-wrap: wrap;
+    }
+    .flex_box_mchmdhilmie li{
+        width: 50%;
+    }
+    .flex_box_mchmdhilmie p{
+        text-align: center;
+    }
+    .skills_mchmdhilmie h3{
+        background-color: rgb(176, 254, 228);
+        padding: 20px 20px 30px 0;
+    }
+    .experiences_mchmdhilmie h3{
+        background-color: rgb(176, 254, 228);
+    }
+    .container_mchmdhilmie{
+        width: 70%;
+    }
+    .course_mchmdhilmie{
+        height: 100px;
+    }
+    .footer_mchmdhilmie a{
+        color: white;
+    }
+}
+@media(min-width:370px) and (max-width:670px){
+    .photo_name_mchmdhilmie{
+        width: 100%;
+        margin: 0;
+    }
+    .photo_name_mchmdhilmie img{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    .photo_name_mchmdhilmie h1{
+        text-align: center;
+        padding: 0px;
+    }
+    .flex_box_mchmdhilmie{
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0;
+        text-align: center;
+    }
+    .flex_box_mchmdhilmie li{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .skills_mchmdhilmie{
+        width: 100%;
+        border-style: none;
+    }
+    .skill_mchmdhilmie{
+        margin-top: 10px;
+    }
+    .skill_desc_mchmdhilmie{
+        width: 75%;
+
+    }
+    .skill_desc_mchmdhilmie h4{
+        margin: 0;
+    }
+    .experiences_mchmdhilmie{
+        width: 100%;
+        text-align: center;
+    }
+    .container_mchmdhilmie{
+        width: 75%;
+    }
+    .course_mchmdhilmie{
+        width: 100%;
+        height: auto;
+    }
+    .footer_mchmdhilmie{
+        height: auto;
+    }
+    .listfooter_mchmdhilmie ul{
+        float: left;
+        margin-left: 0px;
+        padding-inline-start: 0px;
+    }
+    .footer_mchmdhilmie a{
+        color: whitesmoke;
+    }
+}

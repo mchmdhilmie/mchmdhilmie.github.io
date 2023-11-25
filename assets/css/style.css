@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo_mchmdhilmie {
+  position: relative;
+  max-width: 80px;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+header ul li a:hover {
+  background-color: #979292;
+  color: rgb(255, 255, 255);
+}
+
+/* Style tombol */
+.default_mchmdhilmie {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 15px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+.login_mchmdhilmie {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 15px;
+  background: #017143;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+.signup_mchmdhilmie {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 15px;
+  background: #017143;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.content_mchmdhilmie {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content_mchmdhilmie .txBox_mchmdhilmie {
+  position: relative;
+  max-width: 600px;
+}
+.content_mchmdhilmie .txBox_mchmdhilmie h2 {
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content_mchmdhilmie .txBox_mchmdhilmie h2 span {
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.content_mchmdhilmie .txBox_mchmdhilmie p {
+  color: #333;
+}
+.content_mchmdhilmie .txBox_mchmdhilmie a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.content_mchmdhilmie .gambarBox_mchmdhilmie {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.content_mchmdhilmie .gambarBox_mchmdhilmie img {
+  max-width: 250px;
+}
+.content_mchmdhilmie .gambarMenu_mchmdhilmie img {
+  max-width: 250px;
+}
+.content_mchmdhilmie .gambarMenu_mchmdhilmie a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+.tmb_mchmdhilmie {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.tmb_mchmdhilmie li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.tmb_mchmdhilmie li:hover {
+  transform: translatey(-25px);
+}
+.tmb_mchmdhilmie li img {
+  max-width: 60px;
+}
+.circle_mchmdhilmie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  clip-path: circle(600px at right 800px);
+}
+.circle2_mchmdhilmie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  clip-path: circle(600px at right 800px);
+}
+.boxbody_mchmdhilmie {
+  background-color: #017143;
+  animation-delay: 0, 1ms;
+  transition-delay: 0, 5ms;
+}
+
+/* Column */
+.col_mchmdhilmie {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.row_mchmdhilmie:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Awal css Login Page dan registrasi*/
+.contentlogin_mchmdhilmie .form_mchmdhilmie {
+  position: relative;
+}
+.contentlogin_mchmdhilmie .form_mchmdhilmie i {
+  position: relative;
+}
+.contentlogin_mchmdhilmie .tombollogin_mchmdhilmie a {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 8px 20px;
+  background: #017143;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+input[type="text"],
+[type="password"],
+[type="email"],
+select {
+  width: 50%;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+/* Akhir css Login Page dan registrasi*/
+
+@media (max-width: 600px) {
+  .col_mchmdhilmie {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .col_mchmdhilmie {
+    width: 50%;
+  }
+  header {
+    padding: 20px;
+  }
+  header .logo_mchmdhilmie {
+    max-width: 60px;
+  }
+  header .ul_mchmdhilmie {
+    display: none;
+  }
+}
